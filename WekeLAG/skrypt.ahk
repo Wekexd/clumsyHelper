@@ -1,4 +1,14 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+/*
+		Skrypt stworzony przez Weke...
+		jezeli chcesz to sobie go edytuj
+		lecz pamietaj kto jest orginalnym
+		autorem tego skryptu <3 milego
+	
+Kanal autora: https://www.youtube.com/channel/UC26ZhUvKYHlu0Y8u3rFaOZw
+*/
+
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.

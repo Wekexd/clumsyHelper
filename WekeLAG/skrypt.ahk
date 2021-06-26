@@ -10,7 +10,7 @@ Menu, Tray, Add, Weke, RunWekeSite
 Menu, Tray, Add, Wylacz, ExitApptray
 Menu, Tray, Add
 if not A_IsAdmin
-	Run *RunAs "%A_ScriptFullPath%" ; (A_AhkPath is usually optional if the script has the .ahk extension.) You would typically check  first.
+	Run *RunAs "%A_ScriptFullPath%"
 
 IfWinExist, clumsy 0.2
 {
@@ -114,14 +114,6 @@ RunWekeSite:
 GuiClose:
 ExitApp
 return
-
-
-~f9::
-{
-	reload
-	return
-}
-
 
 
 StartLag:

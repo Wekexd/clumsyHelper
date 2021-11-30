@@ -4,7 +4,7 @@
 		lecz pamietaj kto jest orginalnym
 		autorem tego skryptu <3 milego
 	
-Kanal autora: https://www.youtube.com/channel/UC26ZhUvKYHlu0Y8u3rFaOZw
+Kanal autora: https://www.youtube.com/c/weke77
 */
 
 
@@ -28,7 +28,7 @@ IfWinExist, clumsy 0.2
 }
 else
 {
-	msgbox, Nie Wlaczyszles Clumsy!
+	msgbox, Nie Wlaczyles Clumsy!
 	Exitapp
 	return
 }
